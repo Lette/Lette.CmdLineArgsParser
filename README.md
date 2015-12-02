@@ -68,7 +68,7 @@ The list of rules may have at most one rule of this type. It's effectively a "ca
 #### Case insensitivity
 #### Order insensitivity
 #### Supplying custom arguments
-The second parameter to the `ArgumentsParser<T>.Parse` method is optional. If you don't provide it, the parser will default to read command line arguments from `Environment.GetCommandLienArgs()`.
+The second parameter to the `ArgumentsParser<T>.Parse` method is optional. If you don't provide it, the parser will default to read command line arguments from `Environment.GetCommandLineArgs()`.
 ```
 var parser = new ArgumentsParser<Settings>();
 var args = new[] { "custom", "list", "of", "arguments" };
