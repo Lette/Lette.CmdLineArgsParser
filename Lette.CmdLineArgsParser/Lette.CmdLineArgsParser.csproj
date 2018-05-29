@@ -46,19 +46,19 @@
     <Compile Include="Arguments\ArgumentBase.cs" />
     <Compile Include="Arguments\ArgumentList.cs" />
     <Compile Include="ArgumentsParser.cs" />
-    <Compile Include="AgumentRules\ArgumentRuleBase.cs" />
-    <Compile Include="AgumentRules\ArgumentRuleList.cs" />
+    <Compile Include="ArgumentRules\ArgumentRuleBase.cs" />
+    <Compile Include="ArgumentRules\ArgumentRuleList.cs" />
     <Compile Include="EnvironmentWrapper.cs" />
     <Compile Include="IArgumentsParser.cs" />
     <Compile Include="IEnvironmentWrapper.cs" />
-    <Compile Include="AgumentRules\IKeyArgumentRule.cs" />
+    <Compile Include="ArgumentRules\IKeyArgumentRule.cs" />
     <Compile Include="Arguments\KeyArgument.cs" />
-    <Compile Include="AgumentRules\KeyArgumentRule.cs" />
+    <Compile Include="ArgumentRules\KeyArgumentRule.cs" />
     <Compile Include="Arguments\KeyValueArgument.cs" />
-    <Compile Include="AgumentRules\KeyValueArgumentRule.cs" />
+    <Compile Include="ArgumentRules\KeyValueArgumentRule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Arguments\ValueArgument.cs" />
-    <Compile Include="AgumentRules\ValueArgumentRule.cs" />
+    <Compile Include="ArgumentRules\ValueArgumentRule.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
