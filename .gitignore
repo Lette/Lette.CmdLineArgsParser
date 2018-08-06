@@ -1,6 +1,6 @@
-*.user
-*.suo
+.vs/
+.vscode/
 bin/
 obj/
+*.user
 *.nupkg
-.vs/
