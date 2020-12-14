@@ -24,7 +24,7 @@ namespace Lette.CmdLineArgsParser.Demo
             // ...or supply your own args to the parser.
             var args = new[] { "--Sequential", "-f", "filter", "--run", "run" };
             settings = parser.Parse(_rules, args);
-            Console.Out.WriteLine("1. {0}", settings);
+            Console.Out.WriteLine("2. {0}", settings);
 
             Console.Out.WriteLine("Press the <Any> key.");
             Console.ReadKey();
